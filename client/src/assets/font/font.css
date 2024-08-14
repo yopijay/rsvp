@@ -197,3 +197,19 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Amsterdam';
+    src: url('Amsterdam.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amsterdam Four';
+    src: url('Amsterdam\ Four.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
