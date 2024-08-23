@@ -1,5 +1,8 @@
 export const container = {
-    padding: '190px 0'
+    transition: 'all 0.2s ease-in-out',
+    padding: {
+        xs: '110px 0'
+    }
 }
 
 export const profile = {

@@ -7,7 +7,7 @@ import { container, cover, date, digits, label, saveDate } from "./style";
 const Index = () => {
     const renderer = ({ days, hours, minutes, seconds, completed }) => {
         return (
-            <Stack direction= "row" justifyContent= "center" alignItems= "center" sx= {{ flexGrow: 1, marginTop: '80px' }} spacing= { 10 }>
+            <Stack direction= "row" justifyContent= "center" alignItems= "center" sx= {{ flexGrow: 1, marginTop: { xs: '20px', } }} spacing= {{ xs: 4, sm: 9 }}>
                 { completed ? 
                     <Typography sx= { digits }>CONGRATULATIONS!</Typography> :
                     <>

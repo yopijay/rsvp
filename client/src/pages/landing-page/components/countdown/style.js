@@ -18,26 +18,48 @@ export const cover = {
 export const saveDate = {
     fontFamily: 'Amsterdam',
     color: '#f6f6f6',
-    fontSize: '450%'
+    transition: '0.2s ease-in-out',
+    fontSize: {
+        xs: '200%',
+        sm: '300%',
+        lg: '450%'
+    }
 }
 
 export const digits = {
+    transition: 'all 02.s ease-in-out',
     fontFamily: 'Montserrat Bold',
-    fontSize: '400%',
+    fontSize: {
+        xs: '195%',
+        sm: '250%',
+        md: '300%',
+    },
     color: '#d3d9e7'
 }
 
 export const label = {
+    transition: 'all 02.s ease-in-out',
     fontFamily: 'Montserrat ExtraBold',
     color: '#d3d9e7',
-    fontSize: '150%',
-    marginTop: '-12px'
+    fontSize: {
+        xs: '80%',
+        lg: '120%',
+    }
 }
 
 export const date = {
+    transition: 'all 0.2s ease-in-out',
     fontFamily: 'Gilroy Light',
     color: '#f6f6f6',
     textTransform: 'uppercase',
-    fontSize: '200%',
-    marginTop: '80px',
+    fontSize: {
+        xs: '140%',
+        sm: '170%',
+        lg: '180%',
+    },
+    marginTop: {
+        xs: '20px',
+        sm: '28px',
+        lg: '44px',
+    },
 }
