@@ -14,9 +14,9 @@ const Index = () => {
     return (
         <Container maxWidth= "xl" sx= {{ padding: { xs: '40px 20px', sm: '40px' } }}>
             <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" spacing= {{ xs: 8 }}>
-                <Typography textAlign= "center" sx= { title }>Our Story</Typography>
+                <Typography textAlign= "center" sx= { title } data-aos= "fade-up" data-aos-delay= "1700">Our Story</Typography>
                 <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" spacing= {{ xs: 6, sm: 10 }}>
-                    <FirstMeet />
+                    <FirstMeet/>
                     <Crush />
                     <ServeTogether />
                     <Official />

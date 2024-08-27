@@ -6,7 +6,7 @@ import Firstmeet from "assets/images/first-meet.JPG";
 
 const FirstMeet = () => {
     return (
-        <Grid container direction= "row" justifyContent= "center" alignItems= "center">
+        <Grid container direction= "row" justifyContent= "center" alignItems= "center" data-aos= "fade-right" data-aos-delay= "2000">
             <Grid item xs= { 12 } sm= { 7 } md= { 5 } lg= { 4 }>
                 <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" spacing= {{ xs: 1 }}>
                     <Typography sx= { subtitle }>First Meet</Typography>

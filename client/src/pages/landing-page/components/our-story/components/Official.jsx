@@ -6,7 +6,7 @@ import official from "assets/images/official.JPG";
 
 const Official = () => {
     return (
-        <Grid container direction= {{ xs: 'row', sm: 'row-reverse' }} justifyContent= "center" alignItems= "center">
+        <Grid container direction= {{ xs: 'row', sm: 'row-reverse' }} justifyContent= "center" alignItems= "center" data-aos= "fade-left" data-aos-delay= "8000">
             <Grid item xs= { 12 } sm= { 7 } md= { 5 } lg= { 4 }>
                 <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" spacing= {{ xs: 1 }}>
                     <Typography sx= { subtitle } textAlign= {{ xs: 'left', sm: 'right' }}>Official BF/GF</Typography>
