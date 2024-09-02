@@ -1,17 +1,36 @@
 // Libraries
 import { Stack } from "@mui/material";
 
+// Assets
+import CornerLeft from "assets/images/corner-left-bg.png";
+import CornerRight from "assets/images/corner-right-bg.png";
+
 // Components
 import Banner from "./components/countdown";
 import BrideGroom from "./components/bride-groom";
 import OurStory from "./components/our-story";
+import Entourage from "./components/entourage";
+
+const corners = {
+    width: {
+        xs: '400px'
+    },
+    height: 'auto'
+}
 
 const Index = () => {
     return (
         <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch">
             <Banner />
-            <BrideGroom />
-            <OurStory />
+            <Stack direction= "column" justifyContent= "fle-start" alignItems= "stretch">
+                <Stack direction= "row" justifyContent= "space-between" alignItems= "flex-start" position= "absolute" width= "100vw">
+                    <Stack sx= { corners }><img src= { CornerLeft } alt= "corner-left-bg" width= "100%" /></Stack>
+                    <Stack sx= { corners }><img src= { CornerRight } alt= "corner-right-bg" width= "100%" /></Stack>
+                </Stack>
+                <BrideGroom />
+                <OurStory />
+                <Entourage />
+            </Stack>
         </Stack>
     );
 }

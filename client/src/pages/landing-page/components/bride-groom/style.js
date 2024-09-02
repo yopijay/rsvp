@@ -1,3 +1,6 @@
+// Assets
+import CoupleBG from "assets/images/couple-bg.png";
+
 export const container = {
     transition: 'all 0.2s ease-in-out',
     padding: {
@@ -24,4 +27,15 @@ export const desc = {
 export const icon = {
     fontSize: '140%',
     color: '#a3acc5'
+}
+
+export const couple = {
+    backgroundImage: `url('${CoupleBG}')`,
+    backgroundSize: '100% 100%',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    width: '100%',
+    padding: {
+        xs: '60px'
+    }
 }

@@ -37,7 +37,7 @@ const Index = () => {
         <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" sx= { container }>
             <Stack direction= "column" justifyContent= "center" alignItems= "stretch" sx= { cover }>
                 <Container maxWidth= "lg">
-                    <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch">
+                    <Stack direction= "column" justifyContent= "flex-start" alignItems= "center" spacing= { 7 }>
                         <Typography textAlign= "center" sx= { saveDate } data-aos= "fade-up" data-aos-delay= "1000">Save The Date</Typography>
                         <Typography textAlign= "center" sx= { date } data-aos= "fade-up" data-aos-delay= "1500">October 31, 2024</Typography>
                         <Countdown date= { new Date(2024, 9, 31) } renderer= { renderer } />

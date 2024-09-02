@@ -6,7 +6,7 @@ import crush from "assets/images/crush.JPG";
 
 const Crush = () => {
     return (
-        <Grid container direction= {{ xs: 'row', sm: 'row-reverse' }}  justifyContent= "center" alignItems= "center" data-aos= "fade-left" data-aos-delay= "4000">
+        <Grid container direction= {{ xs: 'row', sm: 'row-reverse' }}  justifyContent= "center" alignItems= "center">
             <Grid item xs= { 12 } sm= { 7 } md= { 5 } lg= { 4 }>
                 <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" spacing= {{ xs: 1 }}>
                     <Typography sx= { subtitle } textAlign= {{ xs: 'left', sm: 'right' }}>Crush</Typography>
