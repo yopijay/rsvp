@@ -6,7 +6,7 @@ import { image, imagecontainer, role, subtitle } from "../../../style";
 const GroomsParent = () => {
     return (
         <Stack direction= "column" justifyContent= "flex-start" alignItems= "center" spacing= {{ xs: 3 }}>
-            <Stack direction= "row" justifyContent= "center" alignItems= "center" spacing= { 2 }>
+            <Stack direction= {{ xs: 'column', sm: 'row' }} justifyContent= "center" alignItems= "center" spacing= {{ xs: 2 }}>
                 <Stack sx= { imagecontainer }><Avatar alt= "Ronilo Judan" src= "#" sx= { image } /></Stack>
                 <Stack sx= { imagecontainer }><Avatar alt= "Rosadel Judan" src= "#" sx= { image } /></Stack>
             </Stack>

@@ -1,34 +1,28 @@
 export const title = {
     transition: 'all 0.2s ease-in-out',
-    fontFamily: 'Amsterdam',
+    fontFamily: 'Hello',
     fontSize: {
         xs: '260%',
-        sm: '290%'
+        sm: '480%'
     },
     color: '#6b7aa3'
+}
+
+export const storycontainer = {
+    padding: '40px 0', 
+    borderRadius: '16px',
+    boxShadow: '0 0 6.1px 3.9px rgba(28,31,86,.06)',
+    backgroundColor: '#ffffff',
+    overflow: 'hidden'
 }
 
 export const subtitle = {
     transition: 'all 0.2s ease-in-out',
     fontFamily: 'Montserrat SemiBold',
+    color: '#5f6063',
     fontSize: {
         xs: '125%'
     },
-}
-
-export const dotcover = {
-    width: '26px', 
-    padding: '4px', 
-    border: 'solid 1px #8d99ba', 
-    borderRadius: '50px', 
-    margin: '0 auto'
-}
-
-export const dot = {
-    width: '16px', 
-    height: '16px', 
-    backgroundColor: '#6b7aa3', 
-    borderRadius: '50px'
 }
 
 export const date = {
@@ -42,7 +36,7 @@ export const date = {
 
 export const imagecover = {
     transition: 'all 0.2s ease-in-out',
-    padding: '5px', 
+    padding: '12px', 
     borderRadius: '200px', 
     border: 'dashed 1px #8d99ba', 
     width: {
@@ -53,6 +47,7 @@ export const imagecover = {
 
 export const image = {
     transition: 'all 0.2s ease-in-out',
+    borderRadius: '200px',
     width: {
         xs: '200px'
     },

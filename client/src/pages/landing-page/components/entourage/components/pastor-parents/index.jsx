@@ -10,7 +10,7 @@ const Index = () => {
     return (
         <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" spacing= {{ xs: 8 }}>
             <Pastor />
-            <Stack direction= {{ xs: 'column', sm: 'row' }}  justifyContent= "space-evenly" alignItems= "stretch">
+            <Stack direction= {{ xs: 'column', lg: 'row' }}  justifyContent= "space-evenly" alignItems= "stretch" spacing= {{ xs: 2, sm: 4 }}>
                 <GroomsParent />
                 <BridesParent />
             </Stack>

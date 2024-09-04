@@ -1,16 +1,7 @@
 // Libraries
 import { Avatar, Stack, Typography } from "@mui/material";
 
-import { imagecontainer, role, subtitle } from "../../../style";
-const image = {
-    transition: 'all 0.2s ease-in-out',
-    width: {
-        xs: '200px'
-    },
-    height: {
-        xs: '200px'
-    }
-}
+import { image, imagecontainer, role, subtitle } from "../../../style";
 
 const Pastor = () => {
     return (

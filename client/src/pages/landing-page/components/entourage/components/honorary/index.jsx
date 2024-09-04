@@ -9,9 +9,9 @@ import { title } from "../../style";
 
 const Index = () => {
     return (
-        <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" spacing= {{ xs: 9 }}>
+        <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" spacing= {{ xs: 4 }}>
             <Typography textAlign= "center" sx= { title }>Honorary</Typography>
-            <Stack direction= "row" justifyContent= "space-evenly" alignItems= "center" spacing= { 2 }>
+            <Stack direction= {{ xs: 'column', sm: 'row' }} justifyContent= "space-evenly" alignItems= "center" spacing= {{ xs: 2, sm: 4 }}>
                 <BestMan />
                 <MaidOfHonor />
             </Stack>

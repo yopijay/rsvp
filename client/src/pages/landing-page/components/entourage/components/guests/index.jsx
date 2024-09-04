@@ -23,11 +23,11 @@ const Index = () => {
     const random = (max, min) => Math.floor(Math.random() * (max - min) + min);
 
     return (
-        <Stack direction= "column" justifyContent= "flex-start" alignItems= "center" spacing= {{ xs: 9 }}>
+        <Stack direction= "column" justifyContent= "flex-start" alignItems= "center" spacing= {{ xs: 4 }}>
             <Typography sx= { title }>Guests</Typography>
             <Grid container direction= "row" justifyContent= "center" alignItems= "center">
                 { guests.map((guest, index) => 
-                    <Grid item xs= { random(5, 3) } key= { index }>
+                    <Grid item xs= { 12 } md= { random(5, 3) } key= { index }>
                         <Stack sx= { guestcontainer }>
                             <Typography textAlign= "center" sx= { gsts }>{ guest }</Typography>
                         </Stack>

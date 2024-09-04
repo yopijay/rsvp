@@ -12,10 +12,10 @@ import Guests from "./components/guests";
 
 const title = {
     transition: 'all 0.2s ease-in-out',
-    fontFamily: 'Amsterdam',
+    fontFamily: 'Hello',
     fontSize: {
         xs: '260%',
-        sm: '290%'
+        sm: '480%'
     },
     color: '#6b7aa3'
 }
@@ -23,8 +23,8 @@ const title = {
 const Index = () => {
     return (
         <Container maxWidth= "xl" sx= {{ padding: { xs: '60px 20px', sm: '120px' } }}>
-            <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" spacing= {{ xs: 8 }}>
-                <Typography textAlign= "center" sx= { title }>Entourage</Typography>
+            <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" spacing= {{ xs: 4 }}>
+                <Typography textAlign= "center" sx= { title }>-Entourage-</Typography>
                 <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" spacing= { 15 }>
                     <PastorParents />
                     <Honorary />

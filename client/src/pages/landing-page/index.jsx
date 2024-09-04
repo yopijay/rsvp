@@ -12,8 +12,12 @@ import OurStory from "./components/our-story";
 import Entourage from "./components/entourage";
 
 const corners = {
+    transition: 'all 0.2s ease-in-out',
     width: {
-        xs: '400px'
+        xs: '120px',
+        sm: '200px',
+        md: '250px',
+        lg: '300px'
     },
     height: 'auto'
 }

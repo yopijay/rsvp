@@ -213,3 +213,19 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Adelia';
+    src: url('adelia.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hello';
+    src: url('Hello.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

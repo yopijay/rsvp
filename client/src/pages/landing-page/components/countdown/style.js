@@ -16,21 +16,22 @@ export const cover = {
 }
 
 export const saveDate = {
-    fontFamily: 'Amsterdam',
-    color: '#f6f6f6',
+    fontFamily: 'Hello',
+    color: '#ebecee',
+    textAlign: 'center',
     transition: '0.2s ease-in-out',
     fontSize: {
-        xs: '200%',
-        sm: '300%',
-        lg: '450%'
+        xs: '300%',
+        sm: '500%',
+        lg: '750%'
     }
 }
 
 export const digits = {
     transition: 'all 02.s ease-in-out',
-    fontFamily: 'Montserrat Bold',
+    fontFamily: 'Montserrat Black',
     fontSize: {
-        xs: '195%',
+        xs: '200%',
         sm: '250%',
         md: '300%',
     },
@@ -39,27 +40,36 @@ export const digits = {
 
 export const label = {
     transition: 'all 02.s ease-in-out',
-    fontFamily: 'Montserrat ExtraBold',
+    fontFamily: 'Hello',
     color: '#d3d9e7',
     fontSize: {
-        xs: '80%',
-        lg: '120%',
+        xs: '120%',
+        md: '180%',
+        lg: '190%',
     }
 }
 
 export const date = {
     transition: 'all 0.2s ease-in-out',
-    fontFamily: 'Gilroy Light',
-    color: '#f6f6f6',
-    textTransform: 'uppercase',
+    fontFamily: 'Montserrat Light',
+    textAlign: 'center',
+    color: '#ebecee',
     fontSize: {
-        xs: '140%',
-        sm: '170%',
-        lg: '180%',
+        xs: '110%',
+        sm: '140%',
+        lg: '150%',
     },
-    marginTop: {
-        xs: '20px',
-        sm: '28px',
-        lg: '44px',
+}
+
+export const location = {
+    transition: 'all 0.2s ease-in-out',
+    fontFamily: 'Montserrat Light',
+    textAlign: 'center',
+    color: '#ebecee',
+    fontSize: {
+        xs: '110%',
+        sm: '140%',
+        lg: '150%',
     },
+    fonrtWeight: 'bold',
 }

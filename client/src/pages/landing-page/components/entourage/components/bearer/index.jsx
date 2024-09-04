@@ -3,40 +3,46 @@ import { Grid, Stack, Typography } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookBible, faCoins, faRing } from "@fortawesome/free-solid-svg-icons";
 
-import { icon, role, subtitle, title } from "../../style";
+import { bearercontainer, role, subtitle, title } from "../../style";
+const icon = {
+    backgroundColor: '#ffffff',
+    padding: {
+        xs: '20px',
+        md: '30px'
+    },
+    marginBottom: {
+        xs: '-35px',
+        md: '-45px'
+    },
+    borderRadius: '200px',
+    fontSize: {
+        xs: '180%',
+        md: '200%'
+    },
+    color: '#8d99ba'
+}
+
+const bearers = [
+    { icon: faCoins, bearer: 'Timothy James Caraga', role: 'Coin Bearer' },
+    { icon: faRing, bearer: 'Lucas Lambino', role: 'Ring Bearer' },
+    { icon: faBookBible, bearer: 'Matthew Lambino', role: 'Bible Bearer' }
+]
 
 const Index = () => {
     return (
-        <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" spacing= {{ xs: 9 }}>
+        <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" spacing= {{ xs: 4 }}>
             <Typography textAlign= "center" sx= { title }>Bearers</Typography>
-            <Grid container direction= "row" justifyContent= "center" alignItems= "center">
-                <Grid item xs= { 12 } md= { 6 } sx= {{ padding: '20px' }}>
-                    <Stack direction= "column" justifyContent= "flex-start" alignItems= "center" spacing= { 3 }>
-                        <Typography sx= { icon }><FontAwesomeIcon icon= { faCoins } /></Typography>
-                        <Stack direction= "column" justifyContent= "center" alignItems= "center">
-                            <Typography sx= { subtitle }>Timothy James Caraga</Typography>
-                            <Typography sx= { role }>Coin</Typography>
+            <Grid container direciton= "row" justifyContent= "center" alignItems= "center">
+                { bearers.map((info, index) => 
+                    <Grid item xs= { 12 } md= { 6 } lg= { 4 } key= { index } padding= {{ xs: '10px' }}>
+                        <Stack direction= "column" justifyContent= "flex-start" alignItems= "center">
+                            <Stack sx= { icon }><FontAwesomeIcon icon= { info.icon } /></Stack>
+                            <Stack direction= "column" justifyContent= "flex-start" alignItems= "center" sx= { bearercontainer }>
+                                <Typography sx= { subtitle }>{ info.bearer }</Typography>
+                                <Typography sx= { role }>{ info.role }</Typography>
+                            </Stack>
                         </Stack>
-                    </Stack>
-                </Grid>
-                <Grid item xs= { 12 } md= { 6 } sx= {{ padding: '20px' }}>
-                    <Stack direction= "column" justifyContent= "flex-start" alignItems= "center" spacing= { 3 }>
-                        <Typography sx= { icon }><FontAwesomeIcon icon= { faRing } /></Typography>
-                        <Stack direction= "column" justifyContent= "center" alignItems= "center">
-                            <Typography sx= { subtitle }>Lucas Lambino</Typography>
-                            <Typography sx= { role }>Ring</Typography>
-                        </Stack>
-                    </Stack>
-                </Grid>
-                <Grid item xs= { 12 } md= { 6 } sx= {{ padding: '20px' }}>
-                    <Stack direction= "column" justifyContent= "flex-start" alignItems= "center" spacing= { 3 }>
-                        <Typography sx= { icon }><FontAwesomeIcon icon= { faBookBible } /></Typography>
-                        <Stack direction= "column" justifyContent= "center" alignItems= "center">
-                            <Typography sx= { subtitle }>Matthew Lambino</Typography>
-                            <Typography sx= { role }>Bible</Typography>
-                        </Stack>
-                    </Stack>
-                </Grid>
+                    </Grid> )}
             </Grid>
         </Stack>
     );

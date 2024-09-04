@@ -17,11 +17,13 @@ export const profile = {
 export const name = {
     fontFamily: 'Montserrat Bold',
     fontSize: '140%',
-    textAlign: 'right'
+    textAlign: 'right',
+    color: '#5f6063'
 }
 
 export const desc = {
-    fontSize: '110%'
+    fontSize: '110%',
+    color: '#5f6063'
 }
 
 export const icon = {
@@ -34,8 +36,18 @@ export const couple = {
     backgroundSize: '100% 100%',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    width: '100%',
+    margin: {
+        xs: '0 auto'
+    },
+    width: {
+        xs: '90%',
+        sm: '60%',
+        md: '100%',
+    },
     padding: {
-        xs: '60px'
+        xs: '45px',
+        sm: '60px',
+        md: '40px',
+        lg: '60px',
     }
 }
