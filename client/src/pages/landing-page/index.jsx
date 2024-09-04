@@ -10,6 +10,7 @@ import Banner from "./components/countdown";
 import BrideGroom from "./components/bride-groom";
 import OurStory from "./components/our-story";
 import Entourage from "./components/entourage";
+import AttireGift from "./components/attire-gift";
 
 const corners = {
     transition: 'all 0.2s ease-in-out',
@@ -34,6 +35,7 @@ const Index = () => {
                 <BrideGroom />
                 <OurStory />
                 <Entourage />
+                <AttireGift />
             </Stack>
         </Stack>
     );

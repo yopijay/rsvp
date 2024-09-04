@@ -20,7 +20,7 @@ const Index = () => {
     return (
         <Container maxWidth= "xl" sx= {{ padding: { xs: '40px 20px', sm: '40px' } }}>
             <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" spacing= {{ xs: 4 }}>
-                <Typography textAlign= "center" sx= { title }>-Our Story-</Typography>
+                <Typography textAlign= "center" sx= { title }>Our Story</Typography>
                 <Grid container direciton= "row" justifyContent= "center" alignItems= "center">
                     { story.map((info, index) => 
                         <Grid item xs= { 12 } sm= { 6 } md= { 4 } key= { index } padding= "10px">

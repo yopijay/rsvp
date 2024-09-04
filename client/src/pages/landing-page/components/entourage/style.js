@@ -46,7 +46,7 @@ export const title = {
     fontFamily: 'Hello',
     color: '#6b7aa3',
     fontSize: {
-        xs: '300%',
+        xs: '260%',
         md: '380%'
     }
 }
@@ -56,7 +56,7 @@ export const subtitle = {
     fontFamily: 'Montserrat SemiBold',
     color: '#5f6063',
     fontSize: {
-        xs: '110%'
+        xs: '105%'
     },
 }
 
@@ -100,7 +100,7 @@ export const guests = {
     transition: 'all 0.2s ease-in-out',
     color: '#5f6063',
     fontSize: {
-        xs: '115%'
+        xs: '95%'
     },
 }
 
@@ -109,6 +109,6 @@ export const role = {
     fontFamily: 'Hello',
     color: '#a3acc5',
     fontSize: {
-        xs: '170%'
+        xs: '155%'
     }, 
 }

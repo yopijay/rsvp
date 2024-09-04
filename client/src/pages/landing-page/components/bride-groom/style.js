@@ -4,7 +4,7 @@ import CoupleBG from "assets/images/couple-bg.png";
 export const container = {
     transition: 'all 0.2s ease-in-out',
     padding: {
-        xs: '110px 0'
+        xs: '110px 0 60px 0'
     }
 }
 
