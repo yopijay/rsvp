@@ -1,6 +1,7 @@
 // LIbraries
 import { Avatar, Container, Grid, Stack, Typography } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 // Assets
@@ -8,7 +9,7 @@ import Bridegroom from "assets/images/bridegroom.JPG";
 import PJ from "assets/images/PJ.JPG";
 import Hazel from "assets/images/Hazel.JPG";
 
-import { container, couple, desc, icon, name, profile } from "./style";
+import { container, couple, icon, name, profile } from "./style";
 
 const Index = () => {
     return (
@@ -20,10 +21,9 @@ const Index = () => {
                             <Avatar alt= "PJ" src= { PJ } sx= {{ width: 100, height: 100 }} />
                         </Stack>
                         <Typography sx= { name }>Paul John Judan</Typography>
-                        <Typography sx= { desc } textAlign= {{ xs: 'center', md: 'right' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
                         <Stack direction= "row" justifyContent= "flex-end" alignItems= "center" spacing= { 1 }>
-                            <Typography sx= { icon }><FontAwesomeIcon icon= { faFacebook } /></Typography>
-                            <Typography sx= { icon }><FontAwesomeIcon icon= { faInstagram } /></Typography>
+                            <Typography sx= { icon } component= { Link } to= "https://www.facebook.com/yopijay"><FontAwesomeIcon icon= { faFacebook } /></Typography>
+                            <Typography sx= { icon } component= { Link } to= "https://www.instagram.com/pijaayyyy__"><FontAwesomeIcon icon= { faInstagram } /></Typography>
                         </Stack>
                     </Stack>
                 </Grid>
@@ -38,10 +38,9 @@ const Index = () => {
                             <Avatar alt= "Hazel" src= { Hazel } sx= {{ width: 100, height: 100 }} />
                         </Stack>
                         <Typography sx= { name }>Hazel Madronio</Typography>
-                        <Typography sx= { desc } textAlign= {{ xs: 'center', sm: 'left' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
                         <Stack direction= "row" justifyContent= "flex-start" alignItems= "center" spacing= { 1 }>
-                            <Typography sx= { icon }><FontAwesomeIcon icon= { faInstagram } /></Typography>
-                            <Typography sx= { icon }><FontAwesomeIcon icon= { faFacebook } /></Typography>
+                            <Typography sx= { icon } component= { Link } to= "https://www.instagram.com/itsmehazzeellll"><FontAwesomeIcon icon= { faInstagram } /></Typography>
+                            <Typography sx= { icon } component= { Link } to= "https://www.facebook.com/hazel.madronio"><FontAwesomeIcon icon= { faFacebook } /></Typography>
                         </Stack>
                     </Stack>
                 </Grid>

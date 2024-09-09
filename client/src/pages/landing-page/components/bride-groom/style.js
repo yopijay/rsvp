@@ -21,11 +21,6 @@ export const name = {
     color: '#5f6063'
 }
 
-export const desc = {
-    fontSize: '110%',
-    color: '#5f6063'
-}
-
 export const icon = {
     fontSize: '140%',
     color: '#a3acc5'
