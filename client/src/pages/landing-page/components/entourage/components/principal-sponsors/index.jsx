@@ -13,7 +13,7 @@ const Index = () => {
         <Stack direction= "column" justifyContent= "flex-start" alignItems= "stretch" spacing= {{ xs: 4 }}>
             <Typography textAlign= "center" sx= { title }>Principal Sponsors</Typography>
             <Grid container direction= "row" justifyContent= "center" alignItems= "center">
-                { sponsors.map((sponsor, index) => 
+                { (sponsors.sort()).map((sponsor, index) => 
                     <Grid item xs= { 11 } sm= { 6 } md= { random(8, 5) } key= { index }>
                         <Stack sx= { primarycontainer }>
                             <Typography textAlign= "center" sx= { guests }>{ sponsor }</Typography>
