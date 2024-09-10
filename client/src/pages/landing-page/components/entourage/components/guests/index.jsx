@@ -14,7 +14,7 @@ const guests = [ 'Abby Valencia', 'Arvin Ranara', 'Bryan Ranara', 'Eloisa Madron
                             'Abigael Arnejo', 'Alexcia Laderas', 'Calvin Sy', 'Danmark De Leon', 'Generose Garcia', 'Glenn Paul Agaton', 'Hyun Beum Lee', 'Jerome Fererras', 'Joshua Fererras',
                             'Joy Cuadra', 'Kim Juaneza', 'Maygan Villanueva', 'Queenie Anne Sarita', 'Railey Christian Tolentino', 'Reymart Garilao', 'Aeroll Pagba', 'Agustin Barena', 
                             'Erol Canita', 'Francis Salud', 'Jazzteen Espiritu', 'Elton James Pena', 'Jennylyn Galve', 'Jhemil Gonzales', 'John Jay Rimorin', 'John Paul Lagroma', 
-                            'Johnmark Empinado', 'Jomar Cascabel', 'Jonalyn Delvo', 'Kenneth Moyalde', 'Kim Bryan Sison', 'Marvic Hernaez', 'Marvin Dumlao', 'Noel Cabilles',
+                            'Johnmark Empinado', 'Jomar Cascabel', 'Jonalyn Delvo', 'Kenneth Moyalde', 'Kim Bryan Sison', 'John Marvic Hernaez', 'Marvin Dumlao', 'Noel Cabilles',
                             'Ronald Henguillo', 'Ryan Angelo Madrigal', 'Alyanna Torres', 'Ashana Marie Maynigo', 'Fernand Ramirez', 'Hannah Queen Maurillo', 'Jasselle Cabrera',
                             'Justine Bonganciso', 'Mary Grace Oki', 'Mary Jane Bonganciso', 'Mary Joy Bonganciso', 'Paolo Fernandez', 'Reuben Kurt Bautista', 'Rhainne Carandang',
                             'Rowena Millena', 'Shiena Maynigo', 'Simiran Singh', 'Fausha Zuniega Bayonito', 'John Niel Laurenciano' ];

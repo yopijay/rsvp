@@ -61,7 +61,9 @@ export const subtitle = {
 }
 
 export const primarycontainer = {
-    border: 'dashed 2px #6b7aa3',
+    backgroundColor: '#FFFFFF',
+    boxShadow: '0 0 6.1px 3.9px rgba(28,31,86,.06)',
+    // border: 'dashed 2px #6b7aa3',
     padding: '8px',
     margin: '8px',
     borderRadius: '8px'
@@ -90,7 +92,9 @@ export const bearercontainer = {
 }
 
 export const guestcontainer = {
-    border: 'dashed 2px #6b7aa3',
+    backgroundColor: '#FFFFFF',
+    // border: 'dashed 2px #6b7aa3',
+    boxShadow: '0 0 6.1px 3.9px rgba(28,31,86,.06)',
     padding: '8px',
     margin: '8px',
     borderRadius: '8px'
