@@ -36,3 +36,49 @@ export const attire = color => ({
     },
     borderRadius: '200px',
 });
+
+export const bankcontainer = {
+    boxShadow: '0 0 6.1px 3.9px rgba(28,31,86,.06)',
+    padding: '80px 0',
+    transition: 'all 0.3s ease-in-out',
+    backgroundColor: "#FFFFFF",
+    borderRadius: {
+        xs: '16px'
+    }
+}
+
+export const qrlogo = (logo) => ({
+    backgroundImage: `url('${logo}')`,
+    backgroundSize: '100% 100%',
+    backgroundPosition: 'center',
+    width: '200px',
+    height: '60px',
+});
+
+export const qrimg = (qr) => ({
+    backgroundImage: `url('${qr}')`,
+    backgroundSize: '100% 100%',
+    backgroundPosition: 'center',
+    width: {
+        xs: '200px',
+    },
+    height: {
+        xs: '200px'
+    }
+});
+
+export const acccountname = {
+    fontFamily: 'Montserrat SemiBold',
+    color: '#212121',
+    fontSize: {
+        xs: '120%'
+    }
+}
+
+export const accountno = {
+    fontFamily: 'Montserrat Light',
+    color: '#5f6063',
+    fontSize: {
+        xs: '110%'
+    }
+}
