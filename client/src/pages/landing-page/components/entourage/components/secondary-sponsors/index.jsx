@@ -13,7 +13,7 @@ const icon = {
 }
 
 const sponsors = [
-    { icon: faFan, sponsor: 'Kanami Oki & Loujhielle Sevidal', role: 'Flower Girls' },
+    { icon: faFan, sponsor: 'Kanami Oki & Loujhielle Orofino', role: 'Flower Girls' },
     { icon: faShirt, sponsor: 'Chrisdyn & Fernando Lambino', role: 'To Clothe us as one' },
     { icon: faLightbulb, sponsor: 'Roland France & Elleen Madronio', role: 'To Light our Path' },
     { icon: faLink, sponsor: 'Grace Joy Madronio & King Penamora', role: 'To Bind us Together' }

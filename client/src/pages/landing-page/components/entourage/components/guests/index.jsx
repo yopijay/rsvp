@@ -10,7 +10,7 @@ const guests = [ 'Abby Valencia', 'Arvin Ranara', 'Bryan Ranara', 'Eloisa Madron
                             'Julie Estacio', 'Lydia Salaveria', 'Mark Anden', 'Nancy Tan', 'Romelyn Anden', 'Reuel Espiritu', 'Ruth Shield Condino', 'Abigail Borre', 'Angelou Ordeniza', 
                             'Arnold Mahencio', 'Bryan Gading', 'Donabel Mascosa', 'Gerald Kevin Oplado', 'Hazel Onaya', 'Jerome Borre', 'Job Mark Javier', 'Kimberly Atienza',
                             'Marcelo Godes', 'Midelyn Miguel', 'Patrick Onaya', 'Romynisa Corbito', 'Rowell Gading', 'Wendell Cordis', 'Aurelio Judan', 'Darlyn Judan', 'Irenia Judan',
-                            'Jaime Balbada', 'Janelle Judan', 'Jaynie Rose Judan', 'Jhielou Sevidal', 'Jonalyn Judan', 'Marilou Sevidal', 'Severino Blanco', 'Shirley Balbada',
+                            'Jaime Balbada', 'Janelle Judan', 'Jaynie Rose Judan', 'Jhielou Orofino', 'Jonalyn Judan', 'Marilou Orofino', 'Severino Blanco', 'Shirley Balbada',
                             'Abigael Arnejo', 'Alexcia Laderas', 'Calvin Sy', 'Danmark De Leon', 'Generose Garcia', 'Glenn Paul Agaton', 'Hyun Beum Lee', 'Jerome Fererras', 'Joshua Fererras',
                             'Joy Cuadra', 'Kim Juaneza', 'Maygan Villanueva', 'Queenie Anne Sarita', 'Railey Christian Tolentino', 'Reymart Garilao', 'Aeroll Pagba', 'Agustin Barena', 
                             'Erol Canita', 'Francis Salud', 'Jazzteen Espiritu', 'Elton James Pena', 'Jennylyn Galve', 'Jhemil Gonzales', 'John Jay Rimorin', 'John Paul Lagroma', 
