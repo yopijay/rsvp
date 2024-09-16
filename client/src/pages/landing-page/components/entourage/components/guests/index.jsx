@@ -21,7 +21,6 @@ const guests = [ 'Abby Valencia', 'Arvin Ranara', 'Bryan Ranara', 'Eloisa Madron
                             'Mark Angelo Boquiron' ];
 
 const Index = () => {
-    const random = (max, min) => Math.floor(Math.random() * (max - min) + min);
 
     return (
         <Stack direction= "column" justifyContent= "flex-start" alignItems= "center" spacing= {{ xs: 4 }}>

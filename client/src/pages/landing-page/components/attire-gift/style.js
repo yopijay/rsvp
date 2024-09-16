@@ -51,8 +51,8 @@ export const qrlogo = (logo) => ({
     backgroundImage: `url('${logo}')`,
     backgroundSize: '100% 100%',
     backgroundPosition: 'center',
-    width: '200px',
-    height: '60px',
+    width: '150px',
+    height: '40px',
 });
 
 export const qrimg = (qr) => ({
