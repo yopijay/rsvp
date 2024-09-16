@@ -17,7 +17,8 @@ const guests = [ 'Abby Valencia', 'Arvin Ranara', 'Bryan Ranara', 'Eloisa Madron
                             'Johnmark Empinado', 'Jomar Cascabel', 'Jonalyn Delvo', 'Kenneth Moyalde', 'Kim Bryan Sison', 'John Marvic Hernaez', 'Marvin Dumlao', 'Noel Cabilles',
                             'Ronald Henguillo', 'Ryan Angelo Madrigal', 'Alyanna Torres', 'Ashana Marie Maynigo', 'Fernand Ramirez', 'Hannah Queen Maurillo', 'Jasselle Cabrera',
                             'Justine Bonganciso', 'Mary Grace Oki', 'Mary Jane Bonganciso', 'Mary Joy Bonganciso', 'Paolo Fernandez', 'Reuben Kurt Bautista', 'Rhainne Carandang',
-                            'Rowena Millena', 'Shiena Maynigo', 'Simiran Singh', 'Fausha Zuniega Bayonito', 'John Niel Laurenciano' ];
+                            'Rowena Millena', 'Shiena Maynigo', 'Simiran Singh', 'Fausha Zuniega Bayonito', 'John Niel Laurenciano', 'Alejandro Judan', "Sherwin Paul De Guzman", 
+                            'Mark Angelo Boquiron' ];
 
 const Index = () => {
     const random = (max, min) => Math.floor(Math.random() * (max - min) + min);
@@ -27,7 +28,7 @@ const Index = () => {
             <Typography sx= { title }>Guests</Typography>
             <Grid container direction= "row" justifyContent= "center" alignItems= "center">
                 { (guests.sort()).map((guest, index) => 
-                    <Grid item xs= { 12 } md= { random(5, 3) } key= { index }>
+                    <Grid item xs= { 12 } sm= { 6 } lg= { 4 } key= { index }>
                         <Stack sx= { guestcontainer }>
                             <Typography textAlign= "center" sx= { gsts }>{ guest }</Typography>
                         </Stack>
