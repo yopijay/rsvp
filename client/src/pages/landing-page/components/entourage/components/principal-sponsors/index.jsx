@@ -2,7 +2,7 @@
 import { Grid, Stack, Typography } from "@mui/material";
 import { guests, primarycontainer, title } from "../../style";
 
-const sponsors = [ 'Linda Gambala', 'Edgar Gambala', 'Leah Laude', 'Jomar Judan', 'Rupert Carandang', 'Gina Molina', 'Rose Molina', 'Robert Baltazar',
+const sponsors = [ 'Linda Gambala', 'Edgar Gambala', 'Leah Laude', 'Jay Jomar M. Judan', 'Rupert Carandang', 'Gina Molina', 'Rose Molina', 'Robert Baltazar',
                                 'Julie Bayonito', 'Mary Ann Bonganciso', 'Ma. Shirley Raneses', 'Edith Mendoza', 'Maida Pulido', 'Angelito Jhayr Obera', 'Moneth Obera',
                                 'Dorothy Arnobit', 'Alejandro Arnobit', 'Anna Buluran', 'Maria Elfleda Mendoza', 'Edgar Mendoza', 'Proverbs Manansala' ];
 
