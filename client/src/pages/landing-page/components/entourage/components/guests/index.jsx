@@ -18,7 +18,7 @@ const guests = [ 'Abby Valencia', 'Arvin Ranara', 'Bryan Ranara', 'Eloisa Madron
                             'Ronald Henguillo', 'Ryan Angelo Madrigal', 'Alyanna Torres', 'Ashana Marie Maynigo', 'Fernand Ramirez', 'Hannah Queen Maurillo', 'Jasselle Cabrera',
                             'Justine Bonganciso', 'Mary Grace Oki', 'Mary Jane Bonganciso', 'Mary Joy Bonganciso', 'Paolo Fernandez', 'Reuben Kurt Bautista', 'Rhainne Carandang',
                             'Rowena Millena', 'Shiena Maynigo', 'Simiran Singh', 'Fausha Zuniega Bayonito', 'John Niel Laurenciano', 'Leandro M. Judan', "Sherwin Paul De Guzman", 
-                            'Mark Angelo Boquiron', 'Jysrael Gonato', 'Russel Anne Rodriquez', 'Tricia Rodriquez' ];
+                            'Mark Angelo Boquiron', 'Jysrael Gonato', 'Russel Anne Rodriguez', 'Tricia Rodriguez', 'Daniel Bryan Dela Cruz' ];
 
 const Index = () => {
 
