@@ -45,7 +45,7 @@ const Index = () => {
                             <Typography sx= { date }>October 31, 2024 | 4PM</Typography>
                             <Typography sx= { location }><FontAwesomeIcon icon= { faLocationDot } style= {{ marginRight: '8px' }} />Cora's Garden, Balagtas Novaliches Quezon City</Typography>
                         </Stack>
-                        <Countdown date= { new Date(2024, 9, 31) } renderer= { renderer } />
+                        <Countdown date= { new Date('2024-10-31T16:00:00') } renderer= { renderer } />
                     </Stack>
                 </Container>
             </Stack>
